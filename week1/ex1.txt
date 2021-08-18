@@ -1,0 +1,43 @@
+/usr/bin/x86_64-linux-gnu-qmake:20:	QMAKE_CC=${CC:-x86_64-linux-gnu-gcc} \
+/usr/bin/pg_config:76:CC = gcc
+/usr/bin/nvidia-bug-report.sh:871:        gcc -v 2>&1
+/usr/bin/nvidia-bug-report.sh:867:    which gcc >/dev/null 2>&1
+/usr/bin/nvidia-bug-report.sh:864:# print gcc & g++ version info
+/usr/bin/h5pcc.openmpi:338:    gcc|linux*)
+/usr/bin/h5pcc.openmpi:193:      kind="gcc"
+/usr/bin/h5pcc.openmpi:192:    if test "`${CC} -v 2>&1 | sed -n 2p | cut -c1-3`" = "gcc"; then
+/usr/bin/h5pcc.openmpi:191:    # Is this gcc masquarading as an MPI compiler?
+/usr/bin/h5pcc.openmpi:188:    kind="gcc"
+/usr/bin/h5pcc.openmpi:187:  gcc)
+/usr/bin/h5c++.openmpi:324:    gcc|linux*)
+/usr/bin/h5c++.openmpi:182:      kind="gcc"
+/usr/bin/h5c++.openmpi:181:    if test "`${CXX} -v 2>&1 | sed -n 2p | cut -c1-3`" = "gcc"; then
+/usr/bin/h5c++.openmpi:180:    # Is this gcc masquarading as an MPI compiler?
+/usr/bin/h5c++.openmpi:177:    kind="gcc"
+/usr/bin/h5c++.openmpi:176:  gcc)
+/usr/bin/h5cc:82:CLINKERBASE="gcc"
+/usr/bin/h5cc:81:CCBASE="gcc"
+/usr/bin/h5cc:338:    gcc|linux*)
+/usr/bin/h5cc:193:      kind="gcc"
+/usr/bin/h5cc:192:    if test "`${CC} -v 2>&1 | sed -n 2p | cut -c1-3`" = "gcc"; then
+/usr/bin/h5cc:191:    # Is this gcc masquarading as an MPI compiler?
+/usr/bin/h5cc:188:    kind="gcc"
+/usr/bin/h5cc:187:  gcc)
+/usr/bin/h5c++:324:    gcc|linux*)
+/usr/bin/h5c++:182:      kind="gcc"
+/usr/bin/h5c++:181:    if test "`${CXX} -v 2>&1 | sed -n 2p | cut -c1-3`" = "gcc"; then
+/usr/bin/h5c++:180:    # Is this gcc masquarading as an MPI compiler?
+/usr/bin/h5c++:177:    kind="gcc"
+/usr/bin/h5c++:176:  gcc)
+/usr/bin/h2xs:962:      my @styles = $Config{gccversion} ? qw(C++ C9X GNU) : qw(C++ C9X);
+/usr/bin/h2ph:731:    length($from_gcc) ? (split(' ', $from_gcc), $Config{usrinc}) : ($Config{usrinc});
+/usr/bin/h2ph:730:    my $from_gcc   = `LC_ALL=C $Config{cc} -v -E - < /dev/null 2>&1 | awk '/^#include/, /^End of search list/' | grep '^ '`;
+/usr/bin/h2ph:727:# non-GCC?) C compilers, but gcc uses additional include directories.
+/usr/bin/dap-config:51:	echo "gcc"
+/usr/bin/curl-config:78:        echo "gcc"
+/usr/bin/cloc:193:                                gcc-4.2.tar.gz  perl-5.8.8.tar.gz
+/usr/bin/c99-gcc:4:# The following options are the same (as of gcc-3.3):
+/usr/bin/c99-gcc:24:exec gcc $extra_flag ${1+"$@"}
+/usr/bin/c89-gcc:4:# The following options are the same (as of gcc-2.95):
+/usr/bin/c89-gcc:23:exec gcc $extra_flag ${1+"$@"}
+/usr/bin/bashbug:31:CC="gcc"

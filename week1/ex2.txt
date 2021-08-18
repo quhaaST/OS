@@ -1,0 +1,1000 @@
+  283  mkdir build
+  284  cd build/
+  285  cmake ..
+  286  make
+  287  ls
+  288  ./VoxelMagick 
+  289  ./VoxelMagick -help
+  290  ./VoxelMagick --help
+  291  sudo apt-get install assimp
+  292  cd Do
+  293  cd Downloads/
+  294  ls
+  295  cd Desktop/library2
+  296  cd voxelizer/
+  297  cd build/
+  298  cmake ..
+  299  assimp 
+  300  assimp help
+  301  cmake ..
+  302  sudo apt-get install assimp
+  303  sudo apt-get remove assimp-utils
+  304  sudo apt-get remove --auto-remove assimp-utils
+  305  sudo apt-get install assimp
+  306  sudo apt update
+  307  sudo apt-get install assimp
+  308  sudo apt update
+  309  sudo apt-get install assimp
+  310  lsb_release -a
+  311  sudo apt-get remove --auto-remove assimp-utils
+  312  sudo apt update
+  313  sudo apt-get remove --auto-remove assimp
+  314  sudo apt-get install curl zip unzip tar
+  315  vcpkg
+  316  vcpkg install assimp
+  317  cd ..
+  318  cd Desktop/
+  319  ls
+  320  cd library2
+  321  ls
+  322  cd voxelizer/
+  323  cd build/
+  324  ls
+  325  cmake ..
+  326  sudo apt-get install assimp
+  327  cd ..
+  328  git clone https://github.com/assimp/assimp.git
+  329  ls
+  330  cd Downloads/
+  331  ls
+  332  git clone https://github.com/assimp/assimp.git
+  333  cd assimp
+  334  ls
+  335  cmake CMakeLists.txt 
+  336  cmake --build .
+  337  ls
+  338  make
+  339  sudo apt-get install assimp
+  340  sudo apt update
+  341  sudo apt install nvidia-cuda-toolkit
+  342  sudo apt install nvidia-cuda-dev
+  343  nvcc -v
+  344  sudo apt-install assimp
+  345  sudo apt-get install assimp
+  346  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+  347  sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+  348  sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub
+  349  sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
+  350  sudo apt-get update
+  351  sudo apt-get -y install cuda
+  352  cd Desktop/
+  353  ls
+  354  cd VoxSurf/
+  355  ls
+  356  ./VoxSurf 
+  357  strace ./VoxSurf 
+  358  ./VoxSurf 
+  359  cd ..
+  360  cd Desktop/BINVOX/
+  361  ls
+  362  ./viewox ~/VoxSurf/out.slab.vox 
+  363  ./viewvox 
+  364  ./viewvox ~/VoxSurf/out.slab.vox 
+  365  cd Desktop/
+  366  mkdir library3
+  367  cd library3
+  368  https://github.com/kctess5/voxelizer.git
+  369  git clone https://github.com/kctess5/voxelizer.git
+  370  mkdir build
+  371  cd build/
+  372  cmake ..
+  373  cd ..
+  374  ls
+  375  rmdir build/ -r
+  376  rmdir -r build/
+  377  rmdir build/
+  378  ls
+  379  voxelizer/
+  380  ls
+  381  cd voxelizer/
+  382  ls
+  383  mkdir build
+  384  cd build/
+  385  cmake ..
+  386  make
+  387  cuda
+  388  make
+  389  cmake ..
+  390  make
+  391  ls
+  392  cd ..
+  393  ls
+  394  cd ..
+  395  ls
+  396  voxelizer/
+  397  ls
+  398  cd voxelizer/
+  399  ls
+  400  cd build/
+  401  ;s
+  402  ls
+  403  cmake ..
+  404  make
+  405  cd bin/
+  406  ls
+  407  ./voxelizer -r 64 ~/Desktop/models/model.stl ./data/poop
+  408  ./voxelizer -r 64 ~/Desktop/models/strange.obj ./data/poop
+  409  cd Desktop/
+  410  cd library3
+  411  ls
+  412  cd voxelizer/
+  413  ls
+  414  cd build/
+  415  cd bin/
+  416  ls
+  417  ./voxelizer 
+  418  ./voxelizer -d 100 ~/Desktop/models/strange.obj ./data/poop
+  419  ./voxelizer -r 100 ~/Desktop/models/strange.obj ./data/poop
+  420  ./voxelizer -r 64 ./data/sphere/sphere.obj ./data/sphere/sphere_voxelized
+  421  cd ..
+  422  ls
+  423  cd ..
+  424  ls
+  425  cd build/
+  426  ./voxelizer -r 64 ./data/sphere/sphere.obj ./data/sphere/sphere_voxelized
+  427  ls
+  428  ./voxelizer 
+  429  ./voxelizer -r 64 ~/Desktop/models/strange.obj ~/Desktop/models/
+  430  cd ..
+  431  cd Desktop/
+  432  ls
+  433  cd models/
+  434  ll
+  435  cd ..
+  436  cd library
+  437  cd library3
+  438  ls
+  439  cd voxelizer/
+  440  ls
+  441  cd build/
+  442  ls
+  443  ./voxelizer -r 64 ~/Desktop/models/strange.obj ~/Desktop/
+  444  strace ./voxelizer -r 64 ~/Desktop/models/strange.obj ~/Desktop/
+  445  ./voxelizer -r 64 ~/Desktop/models/strange.obj ~/Desktop/out
+  446  cd ..
+  447  meshlab out.binvox 
+  448  cd BINVOX/
+  449  ./viewvox ~/Desktop/out.binvox 
+  450  cd ..
+  451  cd libra
+  452  cd library3
+  453  ls
+  454  cd voxelizer/
+  455  ls
+  456  cd build/
+  457  ls
+  458  ./voxelizer -r 256 ~/Desktop/models/strange.obj ../data/models/strange
+  459  cd ..
+  460  ls
+  461  cd data/
+  462  ls
+  463  cd models/
+  464  ls
+  465  ~/Desktop/./viewvox strange.binvox 
+  466  c d..
+  467  cd ..
+  468  cd library1
+  469  ls
+  470  cd voxelizer/
+  471  ls
+  472  cd build/
+  473  ls
+  474  ./VoxelMagick 
+  475  ./VoxelMagick --help
+  476  cd ..
+  477  ls
+  478  cd ..
+  479  ls
+  480  cd ..
+  481  cd library2
+  482  ls
+  483  cd voxelizer/
+  484  ls
+  485  cd build/
+  486  ls
+  487  cd bin/
+  488  ls
+  489  cd ..
+  490  ls
+  491  cmake ..
+  492  assimp
+  493  [200~sudo apt install assimp-utils
+  494  sudo apt install assimp-utils
+  495  cmake ..
+  496  cd ..
+  497  ls
+  498  cd ..
+  499  cd VoxSurf/
+  500  ls
+  501  ~/Desktop/viewvox out.slab.vox 
+  502  meshlab out.slab.vox 
+  503  cd ..
+  504  assimp 
+  505  assimp -help
+  506  assimp --help
+  507  assimp listexport
+  508  cd Desktop/
+  509  ls
+  510  cd library2/
+  511  ls
+  512  cd voxelizer/
+  513  ls
+  514  cd build
+  515  cmake ..
+  516  cmake .. --install
+  517  cmake .. -install
+  518  cmake ..
+  519  assimp --help
+  520  sudo apt-get install assimp
+  521  lsb_release -a
+  522  cmake ..
+  523  libassimp5
+  524  libassimp
+  525  sudo add-apt-repository universe multiverse
+  526  sudo apt update
+  527  sudo apt-get install assimp
+  528  cd ..
+  529  cd Do
+  530  cd Downloads/
+  531  git clone https://github.com/assimp/assimp.git
+  532  ls
+  533  cd assimp/
+  534  ls
+  535  cd bui
+  536  cmake .
+  537  make
+  538  cd ..
+  539  cd Desktop/library2/
+  540  cd bui
+  541  ls
+  542  cd voxelizer/
+  543  cd build/
+  544  ls
+  545  cmake .
+  546  cmake ..
+  547  apt-file find assimp
+  548  sudo apt install apt-file
+  549  apt-file find assimp
+  550  apt-file update
+  551  apt-file find assimp
+  552  sudo apt-file update
+  553  libassimp-dev
+  554  apt-file find assimp
+  555  cd Desktop/xml_voxelize/
+  556  ls
+  557  cd voxelizer/
+  558  ls
+  559  cd examples/
+  560  ls
+  561  cd david/
+  562  ls
+  563  meshlab BERNINI_david.stl 
+  564  cd ..
+  565  ls
+  566  mkdir build
+  567  cd build/
+  568  ls
+  569  ./VoxelMagick --help
+  570  ./VoxelMagick ../examples/david/BERNINI_david.xml 
+  571  ls
+  572  make
+  573  cmake ..
+  574  cd ..
+  575  ls
+  576  rmdir build
+  577  ls
+  578  rmdir --ignore-fail-on-non-empty build/
+  579  ls
+  580  cd build/
+  581  ls
+  582  ~/Desktop/
+  583  cd ..
+  584  cd ~
+  585  cd Desktop/
+  586  cd xml_voxelize/voxelizer/
+  587  ls
+  588  mkdir build
+  589  ls
+  590  cd build
+  591  cmake ..
+  592  make
+  593  ls
+  594  ./VoxelMagick david/BERNINI_david.xml 
+  595  ./VoxelMagick david/BERNINI_david.xml --fast
+  596  meshlab Result/100_hex_david.stl 
+  597  wine
+  598  sudo apt install wine
+  599  ls
+  600  cd Downloads/
+  601  ls
+  602  cd MagicaVoxel-0.99.6.2-win64/
+  603  ls
+  604  wine MagicaVoxel.exe 
+  605  cd ..
+  606  cd Desktop/xml_voxelize/voxelizer/
+  607  ls
+  608  cd build/
+  609  ls
+  610  ./VoxelMagick cube/
+  611  ./VoxelMagick cube/cube.xml 
+  612  ./VoxelMagick david/BERNINI_david.xml
+  613  ./VoxelMagick --dir "david/BERNINI_david.xml"
+  614  ./VoxelMagick --dir "david/BERNINI_david"
+  615  ./VoxelMagick --dir "david/"
+  616  cd ..
+  617  ls
+  618  cd build/
+  619  ls
+  620  cd Result/
+  621  ls
+  622  meshlab hex_david.stl 
+  623  cd ..
+  624  ./VoxelMagick --dir "david/"
+  625  meshlab Result/100_hex_david.stl 
+  626  ./VoxelMagick --dir "david/"
+  627  meshlab Result/64_hex_david.stl 
+  628  meshlab ~/Desktop/models/bernini_david.obj 
+  629  cd Downloads/
+  630  ls
+  631  cd MagicaVoxel-0.99.6.2-win64/
+  632  ls
+  633  wine MagicaVoxel.exe 
+  634  cd Desktop/CUDA_C_mesh_voxelizer/
+  635  ls
+  636  cd voxelizer/build/
+  637  ls
+  638  ./voxelizer -r 64 ~/Downloads/uploads_files_2773616_BaseSpiderMan.obj ~/Desktop/models/cuda/human64
+  639  cd Downloads/
+  640  git clone https://github.com/karimnaaji/voxelizer.git
+  641  cd ..
+  642  cd Desktop/
+  643  mkdir opengl_voxel
+  644  cd opengl_voxel/
+  645  git clone https://github.com/skanti/Mesh-Voxelization-OpenGL-Geometry-Shader.git
+  646  ls
+  647  cd Mesh-Voxelization-OpenGL-Geometry-Shader/
+  648  ls
+  649  mkdir build
+  650  cd build/
+  651  cmake ..
+  652  ls
+  653  glfw3
+  654  sudo apt-get install glfw3
+  655  sudo apt update
+  656  sudo apt install libglfw3-dev
+  657  cmake ..
+  658  cd ..
+  659  cd .
+  660  cd ..
+  661  cd CUDA_C_mesh_voxelizer/
+  662  ls
+  663  cd voxelizer/
+  664  ls
+  665  cd build/
+  666  ls
+  667  ldd voxelizer 
+  668  cd ..
+  669  cd .
+  670  cd ..
+  671  cd models/
+  672  meshlab model.stl 
+  673  cd ..
+  674  cd xml_voxelize/
+  675  cd voxelizer/
+  676  ls
+  677  cd build/
+  678  ls
+  679  ./VoxelMagick --dir "ensemble/"
+  680  cd ..
+  681  ls
+  682  cd build/Result/
+  683  ls
+  684  meshlab hex_roof.stl 
+  685  cd ~/Desktop/
+  686  ls
+  687  cd CUDA_C_mesh_voxelizer/
+  688  ls
+  689  cd voxelizer/
+  690  ls
+  691  cd build/
+  692  ls
+  693  ./voxelizer -r 64 ~/Desktop/models/EiffelTower.obj ~/Desktop/models/eifell_voxel
+  694  ~/Desktop/./viewvox ~/Desktop/models/eifell_voxel.binvox 
+  695  meshlab ~/Desktop/models/EiffelTower.obj 
+  696  meshlab ~/Desktop/models/EiffelTower.stl 
+  697  meshlab ~/Desktop/models/EiffelTower1.obj 
+  698  ./voxelizer --help
+  699  ./voxelizer -r 64 ~/Desktop/models/EiffelTower1.obj ~/Desktop/models/eifell_voxel
+  700  ~/Desktop/./viewvox ~/Desktop/models/eifell_voxel.binvox 
+  701  ./voxelizer -r 128 ~/Desktop/models/EiffelTower1.obj ~/Desktop/models/eifell_voxel128
+  702  ~/Desktop/./viewvox ~/Desktop/models/eifell_voxel128.binvox 
+  703  ./voxelizer -r 256 ~/Desktop/models/EiffelTower1.obj ~/Desktop/models/eifell_voxel256
+  704  ~/Desktop/./viewvox ~/Desktop/models/eifell_voxel256.binvox 
+  705  ./voxelizer -r 64 ~/Desktop/models/strange.obj ~/Desktop/models/cuda/strange64
+  706  ./voxelizer -r 128 ~/Desktop/models/strange.obj ~/Desktop/models/cuda/strange128
+  707  ./voxelizer -r 256 ~/Desktop/models/strange.obj ~/Desktop/models/cuda/strange256
+  708  ./voxelizer -r 64 ~/Desktop/models/bernini_david.obj ~/Desktop/models/cuda/bernini64
+  709  meshlab ~/Desktop/models/cuda/bernini64.binvox 
+  710  ~/Desktop/./viewvox ~/Desktop/models/cuda/bernini64.binvox 
+  711  ./voxelizer -r 128 ~/Desktop/models/bernini_david.obj ~/Desktop/models/cuda/bernini128
+  712  ./voxelizer -r 64 ~/Desktop/models/Audi_RS_6_Avant.obj ~/Desktop/models/cuda/audi64
+  713  meshlab ~/Desktop/models/Audi_RS_6_Avant.obj 
+  714  meshlab ~/Desktop/models/Audi_RS_6_Avant.stl
+  715  meshlab ~/Desktop/models/Audi_RS_6_Avant_Applied.stl 
+  716  meshlab ~/Desktop/models/audi.obj 
+  717  meshlab ~/Desktop/models/uploads_files_2748844_Iphone+12+pro.obj 
+  718  ./voxelizer -r 64 ~/Desktop/models/uploads_files_2748844_Iphone+12+pro.obj ~/Desktop/models/cuda/iphone64
+  719  ./voxelizer -r 64 ~/Desktop/models/uploads_files_2748844_Iphone+12+pro.stl ~/Desktop/models/cuda/iphone64
+  720  cd ..
+  721  c d.
+  722  cd ..
+  723  cd VoxSurf/
+  724  ls
+  725  ./VoxSurf --help
+  726  ./VoxSurf -help
+  727  ./VoxSurf 
+  728  cd ..
+  729  cd Desktop/xml_voxelize/voxelizer/
+  730  ls
+  731  cd build/
+  732  ls
+  733  ./VoxelMagick --dir "david/"
+  734  cd ..
+  735  cd Do
+  736  cd Downloads/
+  737  ls
+  738  cd assimp/
+  739  ls
+  740  mkdir build
+  741  cd build/
+  742  cmake ..
+  743  zzip-zlib-config
+  744  sudo apt-get install zzip-zlib-config
+  745  sudo apt update
+  746  sudo apt install minizip
+  747  cmake ..
+  748  sudo apt update
+  749  cmake ..
+  750  sudo apt install zlib1g
+  751  cmake ..
+  752  ~/Desktop/./viewvox ~/Desktop/models/cuda/strange64.binvox 
+  753  ~/Desktop/./viewvox ~/Desktop/models/cuda/strange128.binvox 
+  754  ~/Desktop/./viewvox ~/Desktop/models/cuda/strange256.binvox 
+  755  cd ..
+  756  cd ~/Desktop/
+  757  ls
+  758  cd xml_voxelize/
+  759  ls
+  760  cd voxelizer/
+  761  ls
+  762  cd build/
+  763  ls
+  764  cd Result/
+  765  ls
+  766  meshlab 64_hex_david.stl 
+  767  cd ..
+  768  ./VoxelMagick --dir "david/"
+  769  ./VoxelMagick --dir "eiffel/"
+  770  ./VoxelMagick --dir "strange/"
+  771  cd Desktop/models/xml_voxelizer/
+  772  ls
+  773  meshlab 256_hex_eiffel.stl 
+  774  cd ..
+  775  ls
+  776  cd cuda/
+  777  ls
+  778  ~/Desktop/./viewvox eifell_voxel256.binvox 
+  779  ~/Desktop/./viewvox eifell_voxel128.binvox 
+  780  cd ..
+  781  cd BINVOX/
+  782  ls
+  783  ./binvox --help
+  784  ./binvox -c -d 64 ~/Desktop/models/model.stl 
+  785  ./binvox -c -d 128 ~/Desktop/models/model.stl 
+  786  ./binvox -c -d 256 ~/Desktop/models/model.stl 
+  787  ./binvox -c -d 64 ~/Desktop/models/BERNINI_david.stl 
+  788  ./binvox -c -d 128 ~/Desktop/models/BERNINI_david.stl 
+  789  ./binvox -c -d 256 ~/Desktop/models/BERNINI_david.stl 
+  790  ./binvox -c -d 64 ~/Desktop/models/EiffelTower.stl 
+  791  ./binvox -c -d 128 ~/Desktop/models/EiffelTower.stl 
+  792  ./binvox -c -d 256 ~/Desktop/models/EiffelTower.stl 
+  793  cd ..
+  794  cd models/binxov/
+  795  ls
+  796  ~/Desktop/./viewvox BERNINI_david_256.binvox 
+  797  ~/Desktop/./viewvox teapot256.binvox 
+  798  cd Desktop/models/voxsurf/
+  799  ls
+  800  cd ..
+  801  cd Downloads/
+  802  ls
+  803  cd MagicaVoxel-0.99.6.2-win64/
+  804  ls
+  805  wine MagicaVoxel.exe 
+  806  cd ..
+  807  cd VoxSurf/
+  808  ls
+  809  cmake .
+  810  make
+  811  meshlab model.stl 
+  812  ./VoxSurf 
+  813  cmake .
+  814  make
+  815  ./VoxSurf 
+  816  cd ..
+  817  ls
+  818  cd ..
+  819  cd Desktop/models/
+  820  l;s
+  821  ls
+  822  cd voxsurf/
+  823  ls
+  824  meshlab eiffel256.obj 
+  825  cd Downloads/
+  826  ls
+  827  meshlab eiffel256.stl 
+  828  cd ..
+  829  cd Desktop/models/xml_voxelizer/
+  830  ls
+  831  meshlab 256_hex_eiffel.stl 
+  832  cd ..
+  833  cd xo
+  834  cd voxsurf/
+  835  ls
+  836  cd ..
+  837  cd Downloads/
+  838  ls
+  839  meshlab eiffel256.stl 
+  840  cd ..
+  841  cd Desktop/models/voxsurf/
+  842  meshlab eiffel256.obj 
+  843  ls
+  844  cd VoxSurf/
+  845  ls
+  846  cmake .
+  847  make
+  848  ./VoxSurf 
+  849  cmake .
+  850  make
+  851  ./VoxSurf 
+  852  cmake .
+  853  make
+  854  cmake .
+  855  make
+  856  ./VoxSurf 
+  857  cmake .
+  858  make
+  859  ./VoxSurf 
+  860  cmake .
+  861  make
+  862  cmake .
+  863  make
+  864  cmake .
+  865  make
+  866  cmake .
+  867  make
+  868  ./VoxSurf 
+  869  cmake .
+  870  make
+  871  ./VoxSurf 
+  872  cmake .
+  873  make
+  874  ./VoxSurf 
+  875  cmake .
+  876  make
+  877  ./VoxSurf 
+  878  cd ..
+  879  cd Desktop/models/binxov/
+  880  ls
+  881  ~/Desktop/./viewvox EiffelTower_128.binvox 
+  882  cd ..
+  883  cd VoxSurf/
+  884  ls
+  885  meshlab model.stl 
+  886  cd Desktop/models/xml_voxelizer/
+  887  ls
+  888  meshlab 128_hex_david.stl 
+  889  cd ~
+  890  ls
+  891  cd Desktop/models/xml_voxelizer/
+  892  meshlab 128_hex_eiffel.stl 
+  893  ls
+  894  cd Downloads/
+  895  ls
+  896  cd MagicaVoxel-0.99.6.2-win64/
+  897  wine MagicaVoxel.exe 
+  898  pacman
+  899  sudo apt install pacman
+  900  sudo pacman -S assimp
+  901  pacman
+  902  cd ..
+  903  cd Downloads/
+  904  ls
+  905  cd MagicaVoxel-0.99.6.2-win64/
+  906  wine MagicaVoxel.exe 
+  907  zoom
+  908  cd VoxSurf/
+  909  ls
+  910  cmake .
+  911  make
+  912  ./VoxSurf 
+  913  cd ..
+  914  cd Desktop/models/voxsurf/
+  915  ls
+  916  meshlab bernini256.
+  917  meshlab bernini256.obj 
+  918  cd ..
+  919  meshlab BERNINI_david.stl 
+  920  cd xml_voxelizer/
+  921  ls
+  922  meshlab 64_hex_david.stl 
+  923  cd ~
+  924  ls
+  925  cd Desktop/xml_voxelize/
+  926  ls
+  927  cd voxelizer/
+  928  ls
+  929  cd build/
+  930  ls
+  931  ./VoxelMagick --dir "david/"
+  932  cd Result/
+  933  ls
+  934  cd ..
+  935  ./VoxelMagick --dir "david/"
+  936  cd Result/
+  937  ls
+  938  meshlab 256_hex_david.stl 
+  939  cd ..
+  940  ./VoxelMagick --dir "david/"
+  941  cd Result/
+  942  ls
+  943  meshlab 128_cude_1_hex_david.stl 
+  944  cd ..
+  945  ./VoxelMagick --dir "david/"
+  946  cd Result/
+  947  ls
+  948  meshlab 128_cude_05_hex_david.stl 
+  949  cd ..
+  950  ./VoxelMagick "david/" --fast
+  951  ./VoxelMagick --dir "david/" --fast
+  952  cd Result/
+  953  ls
+  954  meshlab 128_fast_hex_david.stl 
+  955  ls
+  956  cd Downloads/MagicaVoxel-0.99.6.2-win64/
+  957  wine MagicaVoxel.exe 
+  958  ls
+  959  cd Desktop/models/binxov/
+  960  ls
+  961  cd ..
+  962  ls
+  963  cd ..
+  964  cd xml_voxelize/
+  965  ls
+  966  cd voxelizer/
+  967  ls
+  968  cd build/
+  969  ls
+  970  ./VoxelMagick --dir "david/"
+  971  cd Downloads/
+  972  ls
+  973  cd MagicaVoxel-0.99.6.2-win64/
+  974  wine MagicaVoxel.exe 
+  975  cd Desktop/
+  976  ls
+  977  cd models/cuda/
+  978  ls
+  979  ~/Desktop/./viewvox bernini64.binvox 
+  980  ls
+  981  ~/Desktop/./viewvox teapot128.binvox 
+  982  cd ..
+  983  cd models/cuda/
+  984  ls
+  985  ~/Desktop/./viewvox bernini64.binvox 
+  986  ls
+  987  ~/Desktop/./viewvox eifell_voxel256.binvox 
+  988  cd ..
+  989  ls
+  990  cd xml_voxelizer/
+  991  ls
+  992  meshlab 128_hex_david.stl 
+  993  cd Desktop/
+  994  mkdir converter
+  995  cd converter/
+  996  git clone https://github.com/dbworth/pcl_binvox.git
+  997  ls
+  998  cd pcl_binvox/
+  999  ls
+ 1000  cd ..
+ 1001  cd xml_voxelize/voxelizer/
+ 1002  cd build/
+ 1003  ls
+ 1004  ./VoxelMagick --dir "david/"
+ 1005  cd ..
+ 1006  ls
+ 1007  cd ..
+ 1008  cd models/voxsurf/
+ 1009  ls
+ 1010  cd ..
+ 1011  cd xml_voxelizer/
+ 1012  ls
+ 1013  meshlab 256_hex_david.stl 
+ 1014  cd bui
+ 1015  ls
+ 1016  cd ..
+ 1017  cd xml_voxelize/voxelizer/build/
+ 1018  ls
+ 1019  ./VoxelMagick --dir "david/"
+ 1020  cd ~
+ 1021  cd Downloads/
+ 1022  ls
+ 1023  cd bytereader_bin_0.6.3/
+ 1024  ls
+ 1025  wine Byte\ reader.exe 
+ 1026  hexedit
+ 1027  sudo apt install hexedit
+ 1028  cd ..
+ 1029  ls
+ 1030  cd Desktop/xml_voxelize/voxelizer/build/Result/
+ 1031  ls
+ 1032  hexedit _hex_david.vox 
+ 1033  ghex
+ 1034  sudo apt install ghex
+ 1035  ghex
+ 1036  cd Desktop/xml_voxelize/voxelizer/build/
+ 1037  ls
+ 1038  ./VoxelMagick --dir "cube/"
+ 1039  ghex
+ 1040  ./VoxelMagick --dir "cube/"
+ 1041  cd Result/
+ 1042  meshlab cube_4.
+ 1043  meshlab cube_4.stl 
+ 1044  hexedit cube_4.vox
+ 1045  cd Downloads/MagicaVoxel-0.99.6.2-win64/
+ 1046  wine MagicaVoxel.exe 
+ 1047  ls
+ 1048  gcc main.cpp 
+ 1049  ls
+ 1050  gcc main.cpp 
+ 1051  mkdir build
+ 1052  ls
+ 1053  cd build/
+ 1054  cmake ..
+ 1055  ls
+ 1056  make
+ 1057  ls
+ 1058  cmake ..
+ 1059  make
+ 1060  ls
+ 1061  ./VoxelMagick --dir "cube/"
+ 1062  cmake ..
+ 1063  make
+ 1064  ./VoxelMagick --dir "cube/"
+ 1065  cmake ..
+ 1066  make
+ 1067  cd Desktop/
+ 1068  ls
+ 1069  cd xml_voxelize/voxelizer/build/
+ 1070  ls
+ 1071  ./VoxelMagick --dir "cube/"
+ 1072  cd ~
+ 1073  cd Downloads/
+ 1074  ls
+ 1075  cd MagicaVoxel-0.99.6.2-win64/
+ 1076  wine MagicaVoxel.exe 
+ 1077  ghex
+ 1078  cd Desktop/xml_voxelize/voxelizer/build/
+ 1079  ls
+ 1080  ./VoxelMagick --dir "cube/"
+ 1081  ghex
+ 1082  ./VoxelMagick --dir "cube/"
+ 1083  ghex
+ 1084  ./VoxelMagick --dir "cube/"
+ 1085  ghex
+ 1086  ./VoxelMagick --dir "cube/"
+ 1087  ghex
+ 1088  cd Downloads/MagicaVoxel-0.99.6.2-win64/
+ 1089  wine MagicaVoxel.exe 
+ 1090  cd ..
+ 1091  cd Desktop/
+ 1092  ls
+ 1093  git clone https://github.com/PaulBernier/obj2pcd.git
+ 1094  git clone https://github.com/dbworth/pcl_binvox.git
+ 1095  ls
+ 1096  cd xml_voxelize/voxelizer/build/
+ 1097  ls
+ 1098  ./VoxelMagick --dir "eiffel/"
+ 1099  cd ..
+ 1100  ls
+ 1101  cd obj2pcd/
+ 1102  ls
+ 1103  cmake .
+ 1104  pcl
+ 1105  cmake .
+ 1106  make
+ 1107  ls
+ 1108  ./obj2pcd ~/Desktop/xml_voxelize/voxelizer/build/Result/64_ob_eiffel.obj 
+ 1109  cd ..
+ 1110  ls
+ 1111  cd obj2pcd/
+ 1112  ls
+ 1113  cd ..
+ 1114  ls
+ 1115  cd pcl_binvox/
+ 1116  ls
+ 1117  cmake .
+ 1118  catkin
+ 1119  cd ..
+ 1120  ls
+ 1121  cd VoxSurf/
+ 1122  cmake .
+ 1123  make
+ 1124  ./VoxSurf 
+ 1125  cd ..
+ 1126  cd Desktop/xml_voxelize/voxelizer/build/
+ 1127  ls
+ 1128  ./VoxelMagick --dir "cube/"
+ 1129  ghex
+ 1130  cd Downloads/
+ 1131  ls
+ 1132  cd MagicaVoxel-0.99.6.2-win64/
+ 1133  wine MagicaVoxel.exe 
+ 1134  cd ~
+ 1135  ls
+ 1136  cd CLionProjects/vox/build/
+ 1137  ls
+ 1138  cd Result/
+ 1139  meshlab 4_st_strange.stl 
+ 1140  meshlab 3_st_strange.stl 
+ 1141  meshlab 4_st_strange.stl 
+ 1142  ls
+ 1143  mkdir build
+ 1144  cd mkdir 
+ 1145  cd build/
+ 1146  ls
+ 1147  cmake ..
+ 1148  make
+ 1149  cmake ..
+ 1150  make
+ 1151  ./VoxelMagick --dir "cube/"
+ 1152  cmake ..
+ 1153  make
+ 1154  ./VoxelMagick --dir "cube/"
+ 1155  ls
+ 1156  ./VoxelMagick --dir "strange/"
+ 1157  cmake ..
+ 1158  make
+ 1159  ls
+ 1160  ./VoxelMagick --dir "strange/"
+ 1161  cmake ..
+ 1162  make
+ 1163  ls
+ 1164  ./VoxelMagick --dir "strange/"
+ 1165  cmake ..
+ 1166  make
+ 1167  ./VoxelMagick --dir "strange/"
+ 1168  cmake ..
+ 1169  make
+ 1170  ./VoxelMagick --dir "strange/"
+ 1171  cmake ..
+ 1172  make
+ 1173  ./VoxelMagick --dir "strange/"
+ 1174  cmake ..
+ 1175  make
+ 1176  /VoxelMagick --dir "strange/"
+ 1177  ./VoxelMagick --dir "strange/"
+ 1178  cmake ..
+ 1179  make
+ 1180  cmake ..
+ 1181  make
+ 1182  ./VoxelMagick --dir "strange/"
+ 1183  cmake ..
+ 1184  make
+ 1185  ./VoxelMagick --dir "strange/"
+ 1186  cmake ..
+ 1187  make
+ 1188  cmake ..
+ 1189  make
+ 1190  ./VoxelMagick --dir "strange/"
+ 1191  sudo apt install libpcl-dev
+ 1192  cd Desktop/xml_voxelize/voxelizer/build/
+ 1193  ls
+ 1194  ./VoxelMagick --dir "strange/"
+ 1195  meshlab Result/4_strange.stl 
+ 1196  cd ..
+ 1197  cd ~
+ 1198  ls
+ 1199  cd CLionProjects/
+ 1200  ls
+ 1201  cd vox
+ 1202  ls
+ 1203  cd build/
+ 1204  ls
+ 1205  cd Result/
+ 1206  meshlab 4_strange.stl 
+ 1207  cd ~
+ 1208  cd Desktop/xml_voxelize/voxelizer/build/
+ 1209  ls
+ 1210  ./VoxelMagick --dir "strange/"
+ 1211  ghex
+ 1212  cd CLionProjects/vox/build/
+ 1213  ls
+ 1214  cd Result/
+ 1215  meshlab 4_ob_strange.obj 
+ 1216  vim
+ 1217  cd Downloads/
+ 1218  cd MagicaVoxel-0.99.6.2-win64/
+ 1219  wine MagicaVoxel.exe 
+ 1220  ghex
+ 1221  noedetch
+ 1222  sudo apt install neofetch 
+ 1223  noedetch
+ 1224  ls
+ 1225  cd Desktop/
+ 1226  ls
+ 1227  cd models/
+ 1228  ls
+ 1229  cd xml_voxelizer/
+ 1230  ls
+ 1231  ~/Desktop/./viewvox 128_hex_david.stl
+ 1232  meshlab 128_hex_david.stl 
+ 1233  ls
+ 1234  cd Desktop/
+ 1235  ls
+ 1236  mkdir OS_Lab_1
+ 1237  cd OS_Lab_1/
+ 1238  ls
+ 1239  man
+ 1240  man man
+ 1241  whoami
+ 1242  hostname
+ 1243  man whoami
+ 1244  grep --help > grep_help.txt
+ 1245  ls
+ 1246  head grep_help.txt 
+ 1247  vim grep_help.txt 
+ 1248  sudo apt install vim
+ 1249  ls
+ 1250  vim grep_help.txt 
+ 1251  head 5 grep_help.txt 
+ 1252  head grep_help.txt 
+ 1253  grep grep grep_help.txt 
+ 1254  grep as grep_help.txt > as_found.txt
+ 1255  ls
+ 1256  vim as_found.txt 
+ 1257  rm as_found.txt 
+ 1258  ls
+ 1259  pwd
+ 1260  head -n 3 grep_help.txt 
+ 1261  cat head -n 3 grep_help.txt 
+ 1262  cat < head -n 3 grep_help.txt 
+ 1263  cat
+ 1264  ls
+ 1265  gedit grep_help.txt 
+ 1266  gedit &
+ 1267  gedit
+ 1268  wow
+ 1269  packman
+ 1270  pacman
+ 1271  jobs
+ 1272  mkdir ~/week1
+ 1273  cd ~/week1/
+ 1274  ls
+ 1275  grep gcc /usr/bin | sort -r > ~/week1/ex1.txt
+ 1276  grep -nr gcc /usr/bin | sort -r > ~/week1/ex1.txt
+ 1277  ls
+ 1278  gedit ex1.txt 
+ 1279  touch file.txt
+ 1280  rm file.txt 
+ 1281  history
+ 1282  history > ex2.txt
