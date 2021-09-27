@@ -1,0 +1,6 @@
+As we can see from the results of FCFS (First Come First Served), Shortest Job First, Round Robin algoritms, each solution has different average turnaround and waiting time for the same input.
+For example, Round Robin algorithm has the biggest average waiting time. Since each process here has to work a fixed amount of time, longer processes suffer by waiting way more time, than shorter ones.
+However, Shortest Job First algorithm has the least average waiting time because short processes have almost no waiting time as the are executing first.
+
+Speaking about average turnaround time, the biggest average turnaround time has the Round Robin algorithm. The reason for this is the same as for its average waiting time: long processes have to wait a lot because of a fixed amount of time given.
+The average turnaround time has for a Shortest Job first and FCFS algorithms is mostly the same. Both algorithms execute the process only once and fully. The only difference may be in a waiting time for each process, where the Shortest Job First alorithm has the least value.
