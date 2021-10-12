@@ -14,6 +14,6 @@ int main() {
 }
 
 /*
- * When this program is running, the free command shows the process ex3 which is using 1GB RES,
+ * When this program is running, the free command shows the process ex3 which is using 0-5GB RES,
  * and showing increasing %CPU and %MEM (8.6 - 20 and 20-60 respectively)
  */
