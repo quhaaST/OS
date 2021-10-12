@@ -1,0 +1,9 @@
+Difference between physical and virtual addresses.
+
+Physical address implies that the exact memory position of something in the RAM is known. So that, program can have a direct access to the place in the RAM where the data is stored.
+
+At the same time, virtual address implies the succeding call to the page table, where this virtual addresses are mapped into the physical addresses.
+
+The virtual memory give more protection to the data stored in the RAM. Since every program has its own address space (with virtual addressing), there is no way for any other program to read or write anything into this space. Every mapping from virtual to physical address will result into getting the physical address of the program's own address space.
+
+Virtual addressing is more complex and time-consuming.

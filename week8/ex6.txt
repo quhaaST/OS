@@ -1,0 +1,4 @@
+Since each page is 8KB, then it is needed 2^13 bits (which is equal to 8KB) in order to byte the address of 1 page.
+2^16 / 2^13 = 2^3 = 8 pages - number of pages we can have.
+We need 1 entry for 1 page, so that the total number of entries is 8.
+Answer: 8 entries.
