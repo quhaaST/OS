@@ -64,30 +64,34 @@ int main() {
         int reference;
         fscanf(fp, "%d", &reference);
 
-        int least_cnt = MAX_VALUE + 1, least_index = -1;
         bool placed = false;
-        for (int i = 0; i < frames_number; i++) {
-            if (frames[i]->cache != reference) {
-                if (frames[i]->counter == least_cnt && frames[i]->cache == -1) { // check if the frame has the least counter
-                    least_cnt = frames[i]->counter;
-                    least_index = i;
-                } else if (frames[i]->counter < least_cnt) {
-                    least_cnt = frames[i]->counter;
-                    least_index = i;
-                }
-                decrease_counter(frames[i]);
-            } else if (frames[i]->cache == reference) { // check if the frame holds the given page
+
+        for (int i = 0; i < frames_number; i++) { // age all frames and check if a reference is present
+            decrease_counter(frames[i]);
+            if (frames[i]->cache == reference) {
                 reset_page(frames[i]);
                 placed = true;
             }
+        }
 
+        if (!placed) { // check if we still need to find a frame for a new reference
+            int least_cnt = MAX_VALUE + 1, least_index = -1;
+            for (int i = 0; i < frames_number; i++) {
+                if (frames[i]->counter == least_cnt && frames[least_index]->cache != -1 && frames[i]->cache == -1) { // fill empty frames first
+                    least_index = i;
+                }
+                if (frames[i]->counter < least_cnt) {
+                    least_cnt = frames[i]->counter;
+                    least_index = i;
+                }
+            }
+            set_new_page(frames[least_index], reference);
         }
 
         if (placed) {
             hit_number++;
         } else {
             miss_number++;
-            set_new_page(frames[least_index], reference);
         }
 
         print_state(frames, frames_number);
