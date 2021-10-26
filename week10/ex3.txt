@@ -1,0 +1,3 @@
+660: gives Read + Write permission for owner and group 
+775: gives Read + Write + Execute permission for owner and group, gives Read + Execute permission for others
+777: gives Read + Write + Execute permission for owner, group and others
