@@ -1,0 +1,1 @@
+. x86_64-linux-gnu .. bin usr ex2.out lib64 file2 file1 lib mnt sbin . run .. bin srv root usr boot media dev var lost+found lib32 lib64 tmp opt snap proc sys home cdrom lib libx32 etc 
