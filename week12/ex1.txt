@@ -40,3 +40,9 @@
     5090-5097 : ahci
   efa0-efbf : 0000:00:1f.4
     efa0-efbf : i801_smbus
+    
+    
+/proc/ioports/ contains the regions of registered input/output ports that are used by kernel Linux drivers specified in the second column.
+Thus, dma1 is a DMA device driver located on 0000-001f. 
+timer1 is a Timer device driver located on 0050-0053.
+pic1 is a PIC device driver located on 0020-0021.
