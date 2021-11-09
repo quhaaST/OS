@@ -22,6 +22,7 @@ int main() {
     }
 
     bool keysPressed[40];
+    printf("Available shortcuts: \n 1) P + E -> I passed the exam! \n 2) C + A + P -> Get some cappuccino! \n 3) U + P + D -> Some updates in the Moodle! \n");
 
     while (true) {
         read(fileDescriptor, &inputEvent, sizeof inputEvent);
