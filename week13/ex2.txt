@@ -1,0 +1,23 @@
+The recovery strategy:
+	This strategy includes several possible variations:
+		- preemption (temporarily take resources from a process, give them to a deadlocked process and return them back)
+		- rollback (saving state of the process to make resources it uses available for some time by returning to previous states)
+		- killing processes (kill deadlocked processes)
+	All these variations have some downsides/limitations:
+		- possibility to use the preemption highly depends on the nature of the resource (for example, sometimes we cannot easily take internet resource from a process with no errors)
+		- rollback implies that the resource owning process has to wait back for its resource after returning to the previous state, which may take a lot of time or cause more deadlocks
+		- killing processes is not an option sometimes as it may kill highly important processes
+
+The avoidance strategy:
+	This strategy can be used if we know some information, like whether it is safe to grant a resource or not, in advance.
+	If we don't have such needed information, then it is not possible to simply apply the strategy.
+
+The prevention strategy:
+	Avoid one of the conditions of deadlock occurence.
+	
+If all the needed information for avoidance strategy is known, then it may be a better option than other strategies. It is so, since avoidance can avoid deadlocks with no possibility to cause new problems.
+
+Otherwise, if prevention strategy can be applied, then it is better to use it rather than the recovery strategy. Since the prevention strategy tries to remove any condition causing the deadlocks, it is safer to use it. It is better to prevent the creation of the deadlock, not to handle it.
+
+If both avoidance and prevention strategies cannot be applied, then recovery can be used.
+
